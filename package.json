@@ -1,5 +1,5 @@
 {
-  "name": "pkg-name",
+  "name": "test-ts-lib-template",
   "version": "0.0.0",
   "type": "module",
   "packageManager": "pnpm@7.9.0",
@@ -15,9 +15,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.coim/zwkang/pkg-name.git"
+    "url": "git+https://github.coim/zwkang/test-ts-lib-template.git"
   },
-  "bugs": "https://github.coim/zwkang/pkg-name/issues",
+  "bugs": "https://github.coim/zwkang/test-ts-lib-template/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
