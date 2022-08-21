@@ -1,6 +1,9 @@
 import { test, assert } from "vitest"
-import { name } from "../src"
+import { addTwo } from "../src"
 
 test("simple", () => {
-  assert.equal(name, "test-ts-lib-template")
+  assert.equal(addTwo(1), 3)
+
+
+  assert.equal(addTwo(3), 5)
 })
