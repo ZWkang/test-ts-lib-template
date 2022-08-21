@@ -1,18 +1,15 @@
 {
   "name": "test-ts-lib-template",
   "version": "0.0.1-beta.4",
-  "type": "module",
   "packageManager": "pnpm@7.9.0",
   "description": "> description:",
   "publishConfig": {
     "access": "public"
   },
-  "author": [
-    {
-      "name": "zwkang",
-      "email": "kang95630@gmail.com"
-    }
-  ],
+  "author": {
+    "name": "zwkang",
+    "email": "kang95630@gmail.com"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.coim/zwkang/test-ts-lib-template.git"
@@ -27,7 +24,7 @@
       "import": "./dist/index.mjs"
     }
   },
-  "main": "./dist/index.mjs",
+  "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "typesVersions": {
